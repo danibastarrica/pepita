@@ -33,6 +33,7 @@ object mijo {
 	var mijoMojado= self.mijo 
 	if mijoEsMojado() mijoMojado*15
 	else mijoMojado*20
+	return mijoMojado
 	}
 
 	method mijoEsMojado(){ return }	
